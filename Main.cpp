@@ -119,12 +119,12 @@ void middle_sort(T arr[], const int length) {
 		}
 
 	// Пузырьковая сортировка.
-	/*
+	
 	for (int i = last_negative - 1; i > first_negative + 1; i--)
 		for (int j = first_negative + 1; j < i; j++)
 			if (arr[j] > arr[j + 1])
 				std::swap(arr[j], arr[j + 1]);
-	*/
+	
 
 	// Быстрая сортировка.
 	if (first_negative != -1 and first_negative != last_negative)
